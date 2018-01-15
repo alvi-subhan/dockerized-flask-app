@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return 'Hello world abc'
+    return 'flask deployed'
 
 PORT = int( os.environ.get("PORT") )
 
